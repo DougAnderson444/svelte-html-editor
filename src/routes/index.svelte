@@ -7,7 +7,4 @@
 <Editor {html} on:change={(evt) => (html = evt.detail)} bind:this={editor} />
 
 <style>
-	.cl-content {
-		/* resize: both; */
-	}
 </style>

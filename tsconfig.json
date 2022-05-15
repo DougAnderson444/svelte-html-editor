@@ -8,6 +8,12 @@
 		"resolveJsonModule": true,
 		"skipLibCheck": true,
 		"sourceMap": true,
-		"strict": true
+		"strict": true,
+		"paths": {
+			"$lib":["src/lib"],   
+			"$lib/*":["src/lib/*"],
+			"@douganderson444/svelte-html-editor":["src/lib/index.js"],
+			"@douganderson444/svelte-html-editor/*":["src/lib/*"]
+		}
 	}
 }
