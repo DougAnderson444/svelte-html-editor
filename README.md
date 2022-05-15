@@ -16,7 +16,7 @@ Built with svelte (no external dependencies)
 #### npm:
 
 ```bash
-npm install --save cl-editor
+npm install --save @douganderson444/svelte-html-editor
 ```
 
 #### HTML:
@@ -35,9 +35,7 @@ npm install --save cl-editor
 ## Usage
 
 ```js
-import Editor from 'cl-editor';
-// or
-const Editor = require('cl-editor');
+import Editor from '@douganderson444/svelte-html-editor/Editor.svelte';
 ```
 
 ```js
@@ -136,7 +134,7 @@ It is easier to import and work directly from the source if you are using Svelte
 
 ```jsx
 <script>
-  import Editor from "cl-editor/src/Editor.svelte"
+  import Editor from "@douganderson444/svelte-html-editor/Editor.svelte"
 
   let html = '<h3>hello</h3>'
   let editor
@@ -151,7 +149,7 @@ It is easier to import and work directly from the source if you are using Svelte
 
 ```jsx
 <script>
-  import Editor from "cl-editor/src/Editor.svelte"
+  import Editor from "@douganderson444/svelte-html-editor/src/Editor.svelte"
 
   let html = '<h3>hello</h3>'
   let colors = ['#000000', '#e60000', '#ff9900', '#ffff00', '#008a00', '#0066cc', '#9933ff',
@@ -198,9 +196,9 @@ Now observe the resize:
 
 ### Run demo
 
+Clone the repo, then:
+
 ```bash
-git clone https://github.com/nenadpnc/cl-text-editor.git cl-editor
-cd cl-editor
 npm i
 npm run dev
 ```
@@ -209,6 +207,7 @@ npm run dev
 
 This library is inspired by these open source repos:
 
+- [https://github.com/nenadpnc/cl-editor](https://github.com/nenadpnc/cl-editor)
 - [Alex-D/Trumbowyg](https://github.com/Alex-D/Trumbowyg)
 - [jaredreich/pell](https://github.com/jaredreich/pell)
 
