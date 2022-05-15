@@ -1,3 +1,7 @@
+<script context="module">
+	export const prerender = true;
+</script>
+
 <script>
 	import Editor from '$lib/Editor.svelte';
 	let html = '<h3>Hello</h3>';

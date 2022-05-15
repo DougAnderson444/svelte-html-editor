@@ -30,6 +30,21 @@ const config = {
 				fs: {
 					strict: false
 				}
+			},
+			build: {
+				rollupOptions: {
+					plugins: [],
+					output: {
+						minifyInternalExports: false,
+						compact: false,
+						sourcemap: true
+					}
+				},
+				minify: false,
+				sourcemap: true,
+				optimization: {
+					minimize: false
+				}
 			}
 		}
 	}
