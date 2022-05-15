@@ -1616,7 +1616,6 @@ function create_fragment(ctx) {
     }
   };
 }
-const prerender = true;
 function instance($$self, $$props, $$invalidate) {
   let html = "<h3>Hello</h3>";
   let editor;
@@ -1635,5 +1634,5 @@ class Routes extends SvelteComponent {
     init(this, options, instance, create_fragment, safe_not_equal, {});
   }
 }
-export { Routes as default, prerender };
-//# sourceMappingURL=index.svelte-0c02e56a.js.map
+export { Routes as default };
+//# sourceMappingURL=index.svelte-852168cc.js.map

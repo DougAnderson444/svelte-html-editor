@@ -1,0 +1,20 @@
+* { 
+	margin: 0;
+	padding: 0;
+	/*  include padding and the border */
+	box-sizing: border-box;
+	/* more padding on the inside of your box, but you don't want the box to resize */
+	/* box-sizing: content-box; */
+}
+
+body {
+	min-height: 100vh;
+	/* mobile viewport bug fix */
+	min-height: -webkit-fill-available;
+	height: 100vh;
+	margin: 0;
+}
+
+html {
+  height: -webkit-fill-available;
+}main.svelte-olj3r6{height:100%}
