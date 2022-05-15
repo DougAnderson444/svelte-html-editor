@@ -18,9 +18,9 @@ const config = {
 		prerender: { default: true },
 		paths: {
 			// change below to your repo name
-			// base: process.env.NODE_ENV === 'development' ? '' : '/svelte-html-editor'
+			base: process.env.NODE_ENV === 'development' ? '' : '/svelte-html-editor'
 		},
-		vite: {
+		vite: () => ({
 			resolve: {
 				alias: {
 					'@douganderson444/svelte-html-editor': path.resolve('src/lib')
@@ -45,8 +45,11 @@ const config = {
 				optimization: {
 					minimize: false
 				}
+			},
+			optimization: {
+				minimize: false
 			}
-		}
+		})
 	}
 };
 
