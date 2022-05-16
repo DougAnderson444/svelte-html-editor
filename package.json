@@ -1,6 +1,6 @@
 {
 	"name": "@douganderson444/svelte-html-editor",
-	"version": "2.3.1",
+	"version": "2.3.2",
 	"scripts": {
 		"dev": "svelte-kit dev --port 3017",
 		"build": "svelte-kit build",
