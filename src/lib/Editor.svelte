@@ -248,6 +248,7 @@
 		box-sizing: border-box;
 		width: 100%;
 		position: relative;
+		font-size: 1em;
 	}
 
 	.cl-content {
@@ -263,6 +264,8 @@
 		background-color: #ecf0f1;
 		border-bottom: 1px solid rgba(10, 10, 10, 0.1);
 		width: 100%;
+		font-size: 1em;
+		font-family: Arial, Helvetica, sans-serif;
 	}
 
 	.cl-button {
